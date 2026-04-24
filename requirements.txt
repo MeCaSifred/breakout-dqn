@@ -1,0 +1,15 @@
+# Core dependencies — ambiente Atari
+gymnasium[atari]>=0.29.1
+ale-py>=0.11.0
+
+# Procesamiento de imágenes
+opencv-python>=4.8.0
+
+# Red neuronal (instalar con CUDA por separado si se quiere GPU)
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utilidades numéricas y visualización
+numpy>=1.24.0
+matplotlib>=3.7.0
